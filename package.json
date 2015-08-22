@@ -1,0 +1,27 @@
+{
+  "name": "kidsmakevt",
+  "version": "1.0.0",
+  "description": "Website for kidsmakevt.com",
+  "main": "index.js",
+  "scripts": {
+    "build": "node node_modules/.bin/gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kidsmakevt/website"
+  },
+  "keywords": [
+    "kidsmakevt"
+  ],
+  "author": "Todd Anderson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kidsmakevt/website/issues"
+  },
+  "homepage": "https://github.com/kidsmakevt/website",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-compile-handlebars": "^0.5.0",
+    "gulp-rename": "^1.2.2"
+  }
+}
