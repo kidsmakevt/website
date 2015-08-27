@@ -17,6 +17,8 @@ var distDir = [process.cwd(), 'dist'].join(path.sep);
 var launchTask = require([tasksDirectory, 'launch.js'].join(path.sep));
 // Import build tasks.
 require([tasksDirectory, 'build.js'].join(path.sep))(srcDir, distDir, gulp, gulpsync.sync);
+// Import watch tasks.
+require([tasksDirectory, 'watch.js'].join(path.sep))(srcDir, distDir, gulp, 'build');
 
 gulp.task('launch', function() {
   launchTask(port, distDir);

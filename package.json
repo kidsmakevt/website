@@ -6,7 +6,8 @@
   "scripts": {
     "build": "node node_modules/.bin/gulp build",
     "prelaunch": "npm run build",
-    "launch": "node node_modules/.bin/gulp launch"
+    "launch": "node node_modules/.bin/gulp launch",
+    "watch": "node node_modules/.bin/gulp watch"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/kidsmakevt/website",
   "devDependencies": {
+    "chokidar": "^1.0.5",
     "colors": "^1.1.2",
     "connect": "^3.4.0",
     "del": "^1.2.1",
@@ -33,6 +35,7 @@
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
     "open": "0.0.5",
-    "serve-static": "^1.10.0"
+    "serve-static": "^1.10.0",
+    "tiny-lr": "^0.1.6"
   }
 }
